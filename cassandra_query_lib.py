@@ -61,13 +61,13 @@ def get_type_member_in_station(type_member,station_name):
         print(f"Error: {str(e)}")
         return str(e)
 
-def insert_ride_data(ride_id, member_casual, rideable_type):
+def insert_ride_data(ride_id, start_station_name, rideable_type):
     try:
-        query = f"INSERT INTO capitalbikeshare (ride_id, member_casual, rideable_type) VALUES ('{ride_id}', '{member_casual}', '{rideable_type}')"
+        query = f"INSERT INTO capitalbikeshare (ride_id, start_station_name, rideable_type) VALUES ('{ride_id}', '{start_station_name}', '{rideable_type}')"
         session.execute(query)
         print("Insert SUCCESS!")
         print("Ride ID:", ride_id)
-        print("Member Casual:", member_casual)
+        print("Member Casual:", start_station_name)
         print("Rideable Type:", rideable_type)
     except Exception as e:
         print(f"Error: {str(e)}")
