@@ -5,9 +5,14 @@ Author: LEDAT
 """
 import os
 import csv
+
+from cassandra import ConsistencyLevel
 from cassandra.cluster import Cluster
+from cassandra.query import BatchStatement
 
 data_element_counter = 0
+total_data_element_counter = 0
+batch = BatchStatement()
 directory_path = os.path.join(os.path.dirname(__file__), "data_csv")
 cassandra_keyspace_name = 'mykeyspace'
 cluster = Cluster(['localhost'])
@@ -28,7 +33,9 @@ file_list = list_files_in_directory(directory_path)
 if file_list:
     for file in file_list:
         with open(os.path.join(directory_path, file), 'r', newline='') as csvfile:
+            print ('CSV file:', file, 'adding...')
             reader = csv.DictReader(csvfile)
+            max_batch_size = 100
             for row in reader:
                 ride_id = row['ride_id']
                 rideable_type = row['rideable_type']
@@ -45,11 +52,17 @@ if file_list:
                 member_casual = row['member_casual']
 
                 cf_query = f"INSERT INTO capitalbikeshare (ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
-                session.execute(cf_query, (
-                ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name,
-                end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual))
+                batch.add(cf_query, (ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual))
                 data_element_counter = data_element_counter + 1
-                print('Load success ', data_element_counter, ' data elements from file ', file)
-                print('\n')
-        print('Congratulations! Total ', data_element_counter, ' data elements total was loaded from file ', file)
+                total_data_element_counter = total_data_element_counter + 1
+                if data_element_counter >= max_batch_size:
+                    session.execute(batch)
+                    batch = BatchStatement(consistency_level=ConsistencyLevel.QUORUM)
+                    data_element_counter = 0
+                    print('1 batch added with batch size', max_batch_size, 'and', total_data_element_counter, 'data element added')
+            if data_element_counter:
+                session.execute(batch)
+                batch = BatchStatement(consistency_level=ConsistencyLevel.QUORUM)
+                print('1 batch added with batch size', max_batch_size, 'and', total_data_element_counter, 'data element added')
+        print('Congratulations! Total ', total_data_element_counter, ' data elements total was loaded from file ', file)
         cluster.shutdown()

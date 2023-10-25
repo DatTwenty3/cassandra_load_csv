@@ -4,7 +4,7 @@ Created on Sun October 15 2023
 Author: LEDAT
 """
 from cassandra.cluster import Cluster
-from flask import jsonify
+#from flask import jsonify
 
 global cluster
 global session
@@ -21,7 +21,7 @@ def connect_to_cassandra(keyspace):
 def close_cassandra_connection():
     session.shutdown()
     cluster.shutdown()
-
+"""
 def get_ride_info(ride_id):
     try:
         query = f"SELECT * FROM capitalbikeshare WHERE ride_id = '{ride_id}'"
@@ -40,8 +40,8 @@ def get_ride_info(ride_id):
         print(f"Error: {str(e)}")
         error_message = {"error": str(e)}
         return jsonify(error_message)
+"""
 
-""""
 def get_ride_id(ride_id):
     try:
         query = f"SELECT * FROM capitalbikeshare WHERE ride_id = '{ride_id}'"
@@ -50,7 +50,6 @@ def get_ride_id(ride_id):
     except Exception as e:
         print(f"Error: {str(e)}")
         return str(e)
-""""
 
 def get_info_station(station_name):
     try:
