@@ -4,6 +4,7 @@ Created on Sun October 15 2023
 Author: LEDAT
 """
 from cassandra.cluster import Cluster
+from flask import jsonify
 
 global cluster
 global session
@@ -21,6 +22,26 @@ def close_cassandra_connection():
     session.shutdown()
     cluster.shutdown()
 
+def get_ride_info(ride_id):
+    try:
+        query = f"SELECT * FROM capitalbikeshare WHERE ride_id = '{ride_id}'"
+        rows = session.execute(query)
+        ride_info_list = []
+        for row in rows:
+            ride_info = {
+                "ride_id": row.ride_id,
+                "member_casual": row.member_casual,
+                "start_station_name": row.start_station_name,
+                "end_station_name": row.end_station_name
+            }
+            ride_info_list.append(ride_info)
+        return jsonify(ride_info_list)
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        error_message = {"error": str(e)}
+        return jsonify(error_message)
+
+""""
 def get_ride_id(ride_id):
     try:
         query = f"SELECT * FROM capitalbikeshare WHERE ride_id = '{ride_id}'"
@@ -29,6 +50,7 @@ def get_ride_id(ride_id):
     except Exception as e:
         print(f"Error: {str(e)}")
         return str(e)
+""""
 
 def get_info_station(station_name):
     try:
