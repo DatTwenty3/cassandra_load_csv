@@ -20,6 +20,7 @@ for row in rows:
     print("\n")
 """
 
+"""
 #Test get_info_station()
 print("Test for get_info_station()\n")
 print("--------------------------\n")
@@ -29,7 +30,7 @@ for row in rows:
     print("Member Casual:", row.member_casual)
     print("Ridealbe type:", row.rideable_type)
     print("\n")
-
+"""
 
 """
 #Test get_rideable_type_in_station()
@@ -100,3 +101,7 @@ for row in rows:
     print("Time:", row.ended_at)
     print("\n")
 """
+
+rows = cql.get_station_name()
+for row in rows:
+    print(row)

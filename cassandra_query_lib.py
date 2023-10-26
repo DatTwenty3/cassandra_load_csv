@@ -21,26 +21,6 @@ def connect_to_cassandra(keyspace):
 def close_cassandra_connection():
     session.shutdown()
     cluster.shutdown()
-"""
-def get_ride_info(ride_id):
-    try:
-        query = f"SELECT * FROM capitalbikeshare WHERE ride_id = '{ride_id}'"
-        rows = session.execute(query)
-        ride_info_list = []
-        for row in rows:
-            ride_info = {
-                "ride_id": row.ride_id,
-                "member_casual": row.member_casual,
-                "start_station_name": row.start_station_name,
-                "end_station_name": row.end_station_name
-            }
-            ride_info_list.append(ride_info)
-        return jsonify(ride_info_list)
-    except Exception as e:
-        print(f"Error: {str(e)}")
-        error_message = {"error": str(e)}
-        return jsonify(error_message)
-"""
 
 def get_ride_id(ride_id):
     try:
@@ -111,6 +91,19 @@ def get_info_between_dates(start_date, end_date):
         result = session.execute(query)
         info = [row for row in result]
         return info
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        return str(e)
+
+def get_station_name():
+    try:
+        query = f"SELECT end_station_name FROM capitalbikeshare ALLOW FILTERING"
+        rows = session.execute(query)
+        station_name = set()
+        for row in rows:
+            station_name.add(row.end_station_name)
+        station_name = list(station_name)
+        return station_name
     except Exception as e:
         print(f"Error: {str(e)}")
         return str(e)
