@@ -104,4 +104,4 @@ for row in rows:
 
 rows = cql.get_station_name()
 for row in rows:
-    print(row)
+    print(row, "with ID", cql.get_station_id(row))
