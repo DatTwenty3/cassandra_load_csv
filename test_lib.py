@@ -102,6 +102,13 @@ for row in rows:
     print("\n")
 """
 
+"""
 rows = cql.get_station_name()
 for row in rows:
     print(row, "with ID", cql.get_station_id(row))
+"""
+
+day = datetime(2023, 7, 1)
+rows = cql.get_bike_day(day)
+for row in rows:
+    print("Ride ID:", row.ride_id, "|", row.started_at)

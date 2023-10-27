@@ -4,7 +4,7 @@ Created on Sun October 15 2023
 Author: LEDAT
 """
 from cassandra.cluster import Cluster
-#from flask import jsonify
+import datetime
 
 global cluster
 global session
@@ -116,6 +116,27 @@ def get_station_id(station_name):
             start_station_id = row.start_station_id
             return start_station_id
         return None
+    except Exception as e:
+        print(f"Error: {str(e)}")
+        return str(e)
+
+def find_week_start_end(week_number, year):
+    first_day = datetime.date(year, 1, 1)
+    day_of_week = first_day.weekday()
+    days_to_subtract = day_of_week - 0
+    start_of_week = first_day - datetime.timedelta(days=days_to_subtract)
+    start_of_desired_week = start_of_week + datetime.timedelta(weeks=week_number)
+    end_of_desired_week = start_of_desired_week + datetime.timedelta(days=6)
+    return start_of_desired_week, end_of_desired_week
+
+def get_bike_day(day):
+    try:
+        tomorrow = day + datetime.timedelta(days=1)
+        day = day.strftime('%Y-%m-%d %H:%M:%S.%f%z')
+        tomorrow = tomorrow.strftime('%Y-%m-%d %H:%M:%S.%f%z')
+        query = f"SELECT ride_id, started_at FROM capitalbikeshare WHERE started_at >= '{day}' AND started_at < '{tomorrow}' ALLOW FILTERING"
+        rows = session.execute(query)
+        return rows
     except Exception as e:
         print(f"Error: {str(e)}")
         return str(e)
