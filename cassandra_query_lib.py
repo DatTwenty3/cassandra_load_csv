@@ -140,3 +140,10 @@ def get_bike_day(day):
     except Exception as e:
         print(f"Error: {str(e)}")
         return str(e)
+
+def ride_id_is_exist(ride_id):
+    query = f"SELECT * FROM capitalbikeshare WHERE ride_id = '{ride_id}'"
+    rows = session.execute(query)
+    if rows:
+        return True
+    return False

@@ -108,7 +108,21 @@ for row in rows:
     print(row, "with ID", cql.get_station_id(row))
 """
 
+"""
 day = datetime(2023, 7, 1)
 rows = cql.get_bike_day(day)
 for row in rows:
     print("Ride ID:", row.ride_id, "|", row.started_at)
+"""
+
+ride_id = '123'
+if cql.ride_id_is_exist(ride_id):
+    print(ride_id, "OK")
+else:
+    print(ride_id, "not OK")
+
+ride_id = 'FE175CF5182FE003'
+if cql.ride_id_is_exist(ride_id):
+    print(ride_id, "OK")
+else:
+    print(ride_id, "not OK")
