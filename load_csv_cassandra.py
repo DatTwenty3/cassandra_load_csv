@@ -11,6 +11,7 @@ from cassandra.cluster import Cluster
 from cassandra.query import BatchStatement
 
 data_element_counter = 0
+total_data_element_counter_in_file = 0
 total_data_element_counter = 0
 batch = BatchStatement()
 directory_path = os.path.join(os.path.dirname(__file__), "data_csv")
@@ -54,15 +55,18 @@ if file_list:
                 cf_query = f"INSERT INTO capitalbikeshare (ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
                 batch.add(cf_query, (ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual))
                 data_element_counter = data_element_counter + 1
+                total_data_element_counter_in_file = total_data_element_counter_in_file + 1
                 total_data_element_counter = total_data_element_counter + 1
                 if data_element_counter >= max_batch_size:
                     session.execute(batch)
                     batch = BatchStatement(consistency_level=ConsistencyLevel.QUORUM)
                     data_element_counter = 0
-                    print('1 batch added with batch size', max_batch_size, 'and', total_data_element_counter, 'data element added')
+                    print('1 batch added with batch size', max_batch_size, 'and', total_data_element_counter_in_file, 'data element added from file', file)
             if data_element_counter:
                 session.execute(batch)
                 batch = BatchStatement(consistency_level=ConsistencyLevel.QUORUM)
-                print('1 batch added with batch size', max_batch_size, 'and', total_data_element_counter, 'data element added')
-        print('Congratulations! Total ', total_data_element_counter, ' data elements total was loaded from file ', file)
-        cluster.shutdown()
+                data_element_counter = 0
+                print('1 batch added with batch size', max_batch_size, 'and', total_data_element_counter_in_file, 'data element added from file', file)
+        total_data_element_counter_in_file = 0
+        print('Congratulations! Total ', total_data_element_counter, ' data elements total was loaded')
+cluster.shutdown()
