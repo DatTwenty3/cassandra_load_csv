@@ -29,6 +29,30 @@ CREATE TABLE capitalbikeshare (
     member_casual text
 ); ---FOR BIKE SHARE BIG-DATA
 
+CREATE TABLE stationbikeshare (
+    station_id text PRIMARY KEY,
+    station_name text,
+    city text,
+    country text,
+); ---FOR BIKE SHARE BIG-DATA
+
+
+CREATE TABLE bikeshare (
+    bike_number text PRIMARY KEY,
+    rideable_type text,
+    country text,
+    introduced_date text,
+    bike_image BLOB,
+); ---FOR BIKE SHARE BIG-DATA
+
+
+CREATE TABLE userbikeshare (
+    user_id text PRIMARY KEY,
+    user_name text,
+    country text,
+    sign_up_date text,
+); ---FOR BIKE SHARE BIG-DATA
+
 /*[STEP 4]*/
 /*Create a folder named data_csv and place the data01.csv file in that folder*/
 /*Import this folder into "File" tag in Cassandra docker*/
