@@ -1,0 +1,743 @@
+station_id,station_name,city,country
+31904.0,East Falls Church Metro / Sycamore St & 19th St N,Victoria,CAN
+32025.0,Carroll & Westmoreland Ave,Victoria,CAN
+31276.0,15th & L St NW,Victoria,CAN
+32255.0,Hartland Rd & Harte Pl,Victoria,CAN
+32235.0,Merrifield Cinema & Merrifield Town Center,Victoria,CAN
+31248.0,Smithsonian-National Mall / Jefferson Dr & 12th St SW,Banff,CAN
+31128.0,23rd & M St NW,Banff,CAN
+31284.0,18th & C St NW,Banff,CAN
+31285.0,22nd & P ST NW,Banff,CAN
+31042.0,Market Square / King St & Royal St,Banff,CAN
+31107.0,Lamont & Mt Pleasant NW,Richmond,CAN
+31115.0,Columbia Rd & Georgia Ave NW,Richmond,CAN
+31955.0,King St & Peyton St,Richmond,CAN
+31260.0,23rd & E St NW ,Richmond,CAN
+31646.0,Maine Ave & 9th St SW,Richmond,CAN
+31958.0,S Washington St & Wilkes St,Greenville,US
+31082.0,Eisenhower Ave & Mill Race Ln,Greenville,US
+31522.0,2nd St & Seaton Pl NE,Greenville,US
+31519.0,1st & O St NW,Greenville,US
+31130.0,7th & S St NW,Greenville,US
+31315.0,Connecticut Ave & McKinley St NW,Greenville,US
+31658.0,Rosedale Rec Center,Greenville,US
+31325.0,Reservoir Rd & 38th St NW,Greenville,US
+31226.0,34th St & Wisconsin Ave NW,Greenville,US
+31647.0,7th St & Massachusetts Ave NE,Greenville,US
+32011.0,Maple & Ritchie Ave,Greenville,US
+31609.0,Maine Ave & 7th St SW,Greenville,US
+31270.0,8th & D St NW,Greenville,US
+31400.0,Georgia & New Hampshire Ave NW,Greenville,US
+31939.0,Wilson Blvd & N Oak St,Greenville,US
+31110.0,20th St & Florida Ave NW,Edmonton,CAN
+31604.0,3rd & H St NW,Edmonton,CAN
+31969.0,Braddock Rd Metro South,Edmonton,CAN
+31945.0,Columbia Pike & S Greenbrier St,Edmonton,CAN
+31664.0,Half & Water St SW,Dothan,US
+31236.0,37th & O St NW / Georgetown University,Dothan,US
+31623.0,Columbus Circle / Union Station,Dothan,US
+31238.0,14th & G St NW,Dothan,US
+31314.0,34th & Water St NW,Dothan,US
+31633.0,Independence Ave & L'Enfant Plaza SW/DOE,Calexico,US
+31906.0,Commonwealth Ave & Oak St,Calexico,US
+31222.0,New York Ave & 15th St NW,Calexico,US
+32012.0,Silver Spring Metro / Colesville Rd & Wayne Ave,Calexico,US
+31645.0,6th & K St NE,Calexico,US
+32001.0,Fenton St & New York Ave ,Calexico,US
+31232.0,7th & F St NW / National Portrait Gallery,Calexico,US
+31651.0,11th & Park Rd NW,Calexico,US
+31615.0,6th & H St NE,Calexico,US
+31018.0,Rhodes St & 16th St N,Calexico,US
+31200.0,Massachusetts Ave & Dupont Circle NW,Clanton,US
+31228.0,8th & H St NW,Clanton,US
+31135.0,16th & Harvard St NW,Clanton,US
+31129.0,15th St & Pennsylvania Ave NW,Clanton,US
+31259.0,20th St & Virginia Ave NW,Clanton,US
+31313.0,Connecticut Ave & Tilden St NW,Dothan,US
+31023.0,Fairfax Dr & Wilson Blvd,Dothan,US
+31131.0,14th & Otis Pl NW,Dothan,US
+31332.0,11th & V St NW,Dothan,US
+31242.0,18th St & Pennsylvania Ave NW,Dothan,US
+31960.0,Commonwealth and Reed,Victoria,CAN
+31807.0,Pleasant St & MLK Ave SE,Victoria,CAN
+31616.0,3rd & H St NE,Victoria,CAN
+31239.0,Rhode Island & Connecticut Ave NW,Victoria,CAN
+31289.0,Henry Bacon Dr & Lincoln Memorial Circle NW,Victoria,CAN
+31005.0,Pentagon City Metro / 12th St & S Hayes St,Banff,CAN
+31602.0,Park Rd & Holmead Pl NW,Banff,CAN
+32006.0,13th St & Eastern Ave,Banff,CAN
+31255.0,24th & N St NW,Banff,CAN
+31321.0,15th St & Constitution Ave NW,Banff,CAN
+31253.0,19th & K St NW,Banff,CAN
+31636.0,New Jersey Ave & N St NW/Dunbar HS,Banff,CAN
+31278.0,18th & R St NW,Banff,CAN
+31093.0,21st St & N Pierce St,Banff,CAN
+31406.0,14th & Upshur St NW,Banff,CAN
+31655.0,New Jersey Ave & F St NW,Richmond,CAN
+31323.0,Woodley Park Metro / Calvert St & Connecticut Ave NW,Richmond,CAN
+31201.0,15th & P St NW,Richmond,CAN
+31215.0,Georgetown Harbor / 30th St NW,Richmond,CAN
+31535.0,10th St & Rhode Island Ave NE,Richmond,CAN
+31661.0,8th & H St NE,Calexico,US
+31220.0,US Dept of State / Virginia Ave & 21st St NW,Calexico,US
+31265.0,5th St & Massachusetts Ave NW,Calexico,US
+31134.0,8th & V St NW,Calexico,US
+31618.0,4th & East Capitol St NE,Calexico,US
+31124.0,14th & Irving St NW,Greenville,US
+31903.0,Royal St & Wilkes St,Greenville,US
+32400.0,1301 McCormick Dr / Wayne K. Curry Admin Bldg,Greenville,US
+31007.0,Crystal City Metro / 18th St & S Bell St,Greenville,US
+31672.0,10th & H St NE,Greenville,US
+31949.0,Columbia Pike & S Scott St/12th St S,Richmond,CAN
+31327.0,14th & Q St NW,Richmond,CAN
+31527.0,North Capitol & R St NE,Richmond,CAN
+31974.0,Mandeville Ln & Stovall St,Richmond,CAN
+31256.0,10th & E St NW,Richmond,CAN
+32215.0,Wiehle-Reston Metro South,Birmingham,US
+31600.0,5th & K St NW,Birmingham,US
+31241.0,Thomas Circle,Birmingham,US
+31648.0,Potomac Ave & Half St SW,Birmingham,US
+31931.0,N Pitt St & Montgomery St,Birmingham,US
+31503.0,Florida Ave & R St NW,Calgary,CAN
+31417.0,Kansas Ave & Sherman Cr NW,Calgary,CAN
+31125.0,15th & W St NW,Calgary,CAN
+31273.0,Hains Point/Buckeye & Ohio Dr SW,Calgary,CAN
+31653.0,7th & K St NW,Calgary,CAN
+31404.0,9th & Upshur St NW,Clanton,US
+31268.0,12th & U St NW,Clanton,US
+31330.0,17th & P St NW,Clanton,US
+31291.0,Vermont Ave & I St NW,Clanton,US
+31221.0,18th & M St NW,Clanton,US
+31279.0,19th & G St NW,Birmingham,US
+31919.0,Carlin Springs Rd & N Thomas St,Birmingham,US
+31203.0,14th & Rhode Island Ave NW,Birmingham,US
+31295.0,Potomac & M St NW,Birmingham,US
+31105.0,14th & Harvard St NW,Birmingham,US
+31212.0,New Hampshire Ave & Ward Pl NW,Banff,CAN
+31267.0,17th St & Massachusetts Ave NW,Banff,CAN
+31247.0,Jefferson Dr & 14th St SW,Banff,CAN
+31095.0,Army Navy Dr & S Nash St,Banff,CAN
+31081.0,Duke St & John Carlyle St,Banff,CAN
+31297.0,Virginia Ave & 25th St NW,Clanton,US
+31328.0,21st St & G st NW,Clanton,US
+31266.0,11th & M St NW,Clanton,US
+31324.0,18th & New Hampshire Ave NW,Clanton,US
+31041.0,Prince St & Union St,Clanton,US
+32008.0,Cordell & Norfolk Ave,Calgary,CAN
+31251.0,12th & L St NW,Calgary,CAN
+31305.0,Connecticut Ave & Macomb St NW / Cleveland Park,Calgary,CAN
+31940.0,Arlington Blvd & Fairfax Dr,Calgary,CAN
+32203.0,Tysons One Pl & Chain Bridge Rd,Calgary,CAN
+32603.0,Pennsylvania Ave & Park Ave,Calexico,US
+31656.0,Maryland Ave & 17th St NE,Calexico,US
+31280.0,11th & S St NW,Calexico,US
+31218.0,L'Enfant Plaza / 7th & C St SW,Calexico,US
+31223.0,Convention Center / 7th & M St NW,Calexico,US
+31252.0,21st St & Pennsylvania Ave NW,Richmond,CAN
+31211.0,Kennedy Center,Richmond,CAN
+31914.0,Lee Center,Richmond,CAN
+31292.0,22nd St & Constitution Ave NW,Richmond,CAN
+31132.0,13th & U St NW,Richmond,CAN
+31205.0,21st & I St NW,Greenville,US
+31067.0,Columbia Pike & S Walter Reed Dr,Greenville,US
+31068.0,Arlington Mill Cmty Center / Columbia Pike & S Dinwiddie St,Greenville,US
+31620.0,5th & F St NW,Greenville,US
+31122.0,16th & Irving St NW,Greenville,US
+31659.0,11th & C St SE,Edmonton,CAN
+31287.0,10th St & L'Enfant Plaza SW,Edmonton,CAN
+32600.0,Founders Row/W Broad St & West St,Edmonton,CAN
+31920.0,Washington-Liberty High School / N Stafford St & Generals Way,Edmonton,CAN
+31254.0,15th & K St NW,Edmonton,CAN
+31062.0,Roosevelt Island,Richmond,CAN
+31677.0,1st & L St NW,Richmond,CAN
+31631.0,8th & F St NE,Richmond,CAN
+31133.0,20th & Columbia Rd NW,Richmond,CAN
+31100.0,19th St & Pennsylvania Ave NW,Richmond,CAN
+32073.0,Blueridge Ave & Elkin St,Calgary,CAN
+31136.0,11th & Clifton St NW,Calgary,CAN
+31675.0,North Capitol & K St NE,Calgary,CAN
+31611.0,13th & H St NE,Calgary,CAN
+31244.0,4th & E St SW,Calgary,CAN
+31517.0,Union Market,Greenville,US
+31505.0,Eckington Pl & Q St NE,Greenville,US
+31639.0,2nd & G St NE,Greenville,US
+31108.0,4th & M St SW,Greenville,US
+31622.0,13th & D St NE,Greenville,US
+31613.0,Eastern Market Metro / Pennsylvania Ave & 8th St SE,Birmingham,US
+31627.0,3rd & M St NE,Birmingham,US
+31224.0,18th & L St NW,Birmingham,US
+31612.0,D St & Maryland Ave NE,Birmingham,US
+31299.0,Connecticut Ave & R St NW,Birmingham,US
+31610.0,Eastern Market / 7th & North Carolina Ave SE,Greenville,US
+31213.0,17th & K St NW,Greenville,US
+31306.0,39th & Calvert St NW / Stoddert,Greenville,US
+31262.0,11th & F St NW,Greenville,US
+31071.0,Eads St & 12th St S,Greenville,US
+31712.0,Oklahoma Ave & D St NE,Victoria,CAN
+31281.0,8th & O St NW,Victoria,CAN
+31619.0,Lincoln Park / 13th & East Capitol St NE ,Victoria,CAN
+31662.0,1st & K St NE,Victoria,CAN
+31708.0,Anacostia Ave & Benning Rd NE / River Terrace ,Victoria,CAN
+31663.0,14th & D St SE,Birmingham,US
+31650.0,1st & M St SE,Birmingham,US
+31116.0,California St & Florida Ave NW,Birmingham,US
+31642.0,New Jersey Ave & K St NW,Birmingham,US
+31520.0,24th & R St NE / National Arboretum,Birmingham,US
+31910.0,Potomac Ave & Main Line Blvd,Dothan,US
+31043.0,St Asaph & Pendleton St,Dothan,US
+31320.0,American University East Campus,Dothan,US
+31606.0,Potomac & Pennsylvania Ave SE,Dothan,US
+31669.0,3rd & M St SE,Dothan,US
+32602.0,N Oak St & W Broad St,Edmonton,CAN
+32053.0,Medical Center Metro ,Edmonton,CAN
+31119.0,14th & Belmont St NW,Edmonton,CAN
+32605.0,W Broad St & Little Falls St,Edmonton,CAN
+31245.0,7th & R St NW / Shaw Library,Edmonton,CAN
+31086.0,Mount Vernon Ave & E Del Ray Ave,Dothan,US
+32055.0,Woodmont Ave & Strathmore St,Dothan,US
+31509.0,New Jersey Ave & R St NW,Dothan,US
+31283.0,14th & L St NW,Dothan,US
+31109.0,7th St & Florida Ave NW,Dothan,US
+31401.0,14th St & Spring Rd NW,Banff,CAN
+31022.0,Clarendon Metro / Wilson Blvd & N Highland St,Banff,CAN
+31249.0,Jefferson Memorial,Banff,CAN
+32081.0,Congressional Ln & E Jefferson St,Banff,CAN
+31080.0,Langston Blvd & N Scott St,Banff,CAN
+32036.0,Fenton St & Ellsworth Dr ,Calexico,US
+31112.0,Harvard St & Adams Mill Rd NW,Calexico,US
+31507.0,1st & Washington Hospital Center NW,Calexico,US
+31234.0,20th & O St NW / Dupont South,Calexico,US
+31088.0,Mount Vernon Ave & Kennedy St,Calexico,US
+31000.0,Eads St & 15th St S,Birmingham,US
+31667.0,2nd & V St SW / James Creek Marina,Birmingham,US
+31673.0,Waterfront Park,Birmingham,US
+31626.0,15th St & Massachusetts Ave SE,Birmingham,US
+31316.0,Yuma St & Tenley Circle NW,Birmingham,US
+31802.0,Good Hope Rd & MLK Ave SE,Victoria,CAN
+31533.0,Tanner Park,Victoria,CAN
+31029.0,N Veitch St & 20th St N,Victoria,CAN
+31117.0,15th & Euclid St NW,Victoria,CAN
+31298.0,15th & M St NW,Victoria,CAN
+31531.0,MBT & Bryant St NE,Greenville,US
+31524.0,Montello Ave & Holbrook Terr NE,Greenville,US
+31926.0,Wilson Blvd & N Vermont St,Greenville,US
+31040.0,GMU/Fairfax Dr & Kenmore St,Greenville,US
+31805.0,Pennsylvania & Minnesota Ave SE,Greenville,US
+32229.0,Park Run & Onyx Dr,Birmingham,US
+31608.0,8th & Eye St SE / Barracks Row,Birmingham,US
+31950.0,Long Bridge Aquatic Center,Birmingham,US
+31506.0,1st & Rhode Island Ave NW,Birmingham,US
+31235.0,19th St & Constitution Ave NW,Birmingham,US
+31976.0,Virginia Hospital Center,Greenville,US
+31420.0,17th & Upshur St NW,Greenville,US
+31973.0,N Pershing Dr & N Quebec St,Greenville,US
+31643.0,1st & D St SE,Greenville,US
+31288.0,4th St & Madison Dr NW,Greenville,US
+31092.0,Langston Blvd & N Monroe St,Calgary,CAN
+31638.0,1st & H St NW,Calgary,CAN
+31635.0,Potomac Ave & 8th St SE,Calgary,CAN
+31293.0,Thomas Jefferson St NW & Water/K St NW,Calgary,CAN
+31942.0,Whiting & Lane Dr,Calgary,CAN
+31208.0,M St & New Jersey Ave SE,Edmonton,CAN
+32089.0,New Hampshire & Lockwood,Edmonton,CAN
+32092.0,Castle Blvd & Castle Ln,Edmonton,CAN
+31518.0,New York Ave & Hecht Ave NE,Edmonton,CAN
+31668.0,1st St & Potomac Ave SE,Edmonton,CAN
+31666.0,4th & G St SW,Victoria,CAN
+31219.0,10th St & Constitution Ave NW,Victoria,CAN
+32246.0,Golf Course Sq and Golf Course Dr,Victoria,CAN
+31126.0,11th & Girard St NW,Victoria,CAN
+31943.0,N Howard St & Taney Ave,Victoria,CAN
+31814.0,Mississippi Ave & 19th St SE / THEARC,Calgary,CAN
+31123.0,14th & Girard St NW,Calgary,CAN
+31225.0,C & O Canal & Wisconsin Ave NW,Calgary,CAN
+31294.0,7th & E St SW,Calgary,CAN
+31924.0,Wilson Blvd & N Troy St,Calgary,CAN
+31508.0,Gallaudet / 8th St & Florida Ave NE,Edmonton,CAN
+31269.0,3rd St & Pennsylvania Ave SE,Edmonton,CAN
+31039.0,Wilson Blvd & N Quincy St,Edmonton,CAN
+31237.0,25th St & Pennsylvania Ave NW,Edmonton,CAN
+31058.0,Columbia Pike & Monroe St,Edmonton,CAN
+31536.0,5th & Morse St NE,Greenville,US
+31240.0,Ohio Dr & West Basin Dr SW / MLK & FDR Memorials,Greenville,US
+31290.0,17th St & Independence Ave SW,Greenville,US
+31333.0,Wisconsin Ave & Rodman St NW,Greenville,US
+31405.0,Georgia Ave & Emerson St NW,Greenville,US
+31905.0,Kennebec St & 11th St N,Richmond,CAN
+31540.0,3rd & N St NE,Richmond,CAN
+31094.0,Langston Blvd & N Kirkwood Rd,Richmond,CAN
+32062.0,Wheaton Metro / Georgia Ave & Reedie Dr,Richmond,CAN
+31104.0,Adams Mill & Columbia Rd NW,Richmond,CAN
+31625.0,3rd & G St SE,Clanton,US
+32084.0,Wheaton Library & Community Rec Center,Clanton,US
+31300.0,Van Ness Metro / UDC,Clanton,US
+31006.0,Pentagon Row Plaza / Army Navy Dr & Joyce St,Clanton,US
+31114.0,18th St & Wyoming Ave NW,Clanton,US
+31264.0,6th St & Indiana Ave NW,Clanton,US
+31532.0,4th & Florida Ave NE,Clanton,US
+31263.0,10th & K St NW,Clanton,US
+31111.0,10th & U St NW,Clanton,US
+32608.0,Falls Church City Hall / Park Ave & Little Falls St,Clanton,US
+31013.0,Eads St & 22nd St S,Dothan,US
+31047.0,Braddock Rd Metro North,Dothan,US
+31637.0,North Capitol St & G Pl NE,Dothan,US
+31282.0,16th & R St NW,Dothan,US
+31296.0,Columbia & Ontario Rd NW,Dothan,US
+31419.0,Georgia Ave & Morton St NW,Victoria,CAN
+31607.0,13th & E St SE,Victoria,CAN
+31603.0,1st & M St NE,Victoria,CAN
+31827.0,St. Elizabeths West Campus/DHS ,Victoria,CAN
+31500.0,4th & W St NE,Victoria,CAN
+32019.0,East West Hwy & Blair Mill Rd,Calgary,CAN
+31933.0,Duke St & Strand (Robinson Terminal),Calgary,CAN
+31541.0,10th & Quincy St NE / Turkey Thicket Rec,Calgary,CAN
+31923.0,Columbia Pike & S George Mason Dr,Calgary,CAN
+31010.0,S Glebe Rd & Potomac Ave,Calgary,CAN
+31002.0,Crystal Dr & 20th St S,Birmingham,US
+31015.0,Wilson Blvd & Ft Myer Dr,Birmingham,US
+31073.0,Washington Blvd & Walter Reed Dr ,Birmingham,US
+31250.0,20th & L St NW,Birmingham,US
+31011.0,Crystal Dr & 23rd St S,Birmingham,US
+31257.0,22nd & I St NW / Foggy Bottom,Greenville,US
+31657.0,Massachusetts Ave & 6th St NE,Greenville,US
+31004.0,Aurora Hills Cmty Ctr / 18th St & S Hayes St,Greenville,US
+31059.0,S Four Mile Run Dr & Walter Reed Dr,Greenville,US
+31053.0,Columbia Pike & S Courthouse Rd,Greenville,US
+32059.0,Takoma Park Rec Center,Richmond,CAN
+31917.0,N Lynn St & Fairfax Dr,Richmond,CAN
+31087.0,Monroe Ave & Leslie Ave,Richmond,CAN
+32219.0,Reston YMCA,Richmond,CAN
+31304.0,36th & Calvert St NW / Glover Park,Richmond,CAN
+31665.0,Stadium Armory Metro,Birmingham,US
+31014.0,19th St N & Ft Myer Dr,Birmingham,US
+31064.0,Gravelly Point,Birmingham,US
+32238.0,Ridge Heights Rd & Seahawks Dr,Birmingham,US
+31070.0,Arlington Blvd & Fillmore St,Birmingham,US
+31513.0,Rhode Island Ave & V St NE,Victoria,CAN
+31052.0,Potomac Ave & 35th St S,Victoria,CAN
+31045.0,Commerce St & Fayette St,Victoria,CAN
+31935.0,National Airport,Victoria,CAN
+31936.0,Army Navy Dr & Fern St,Victoria,CAN
+31970.0,First St & Fayette St,Dothan,US
+31127.0,22nd & H St NW,Dothan,US
+31091.0,Joyce St & 16th St S,Dothan,US
+31097.0,Saint Asaph St & Madison St,Dothan,US
+31051.0,Arlington Blvd & N Queen St,Dothan,US
+31049.0,Fairfax Dr & N Taylor St,Edmonton,CAN
+31968.0,King St & N Pitt St,Edmonton,CAN
+31020.0,Wilson Blvd & N Franklin Rd,Edmonton,CAN
+31089.0,Court House Metro / 15th St & N Uhle St,Edmonton,CAN
+32415.0,Tanger Outlets,Edmonton,CAN
+31534.0,7th & Monroe St NE,Edmonton,CAN
+31048.0,King St Metro South,Edmonton,CAN
+31907.0,Franklin St & S Washington St,Edmonton,CAN
+31800.0,Alabama & MLK Ave SE,Edmonton,CAN
+31066.0,Columbia Pike & S Orme St,Edmonton,CAN
+31121.0,Calvert St & Woodley Pl NW,Calexico,US
+31209.0,1st & N St SE,Calexico,US
+31516.0,Rhode Island Ave Metro,Calexico,US
+31272.0,Washington & Independence Ave SW/HHS,Calexico,US
+31530.0,Capitol Ave & Kendall St NE,Calexico,US
+31012.0,Clark St & 26th St S,Calexico,US
+31077.0,Iwo Jima Memorial / Meade & 14th St N,Calexico,US
+31946.0,Kenmore Ave & Seminary Rd,Calexico,US
+31644.0,12th St & Pennsylvania Ave SE,Calexico,US
+31703.0,Minnesota Ave Metro/DOES,Calexico,US
+32418.0,West Hyattsville Metro,Edmonton,CAN
+32609.0,W Columbia St & N Washington St,Edmonton,CAN
+31310.0,Connecticut & Nebraska Ave NW,Edmonton,CAN
+32058.0,Sligo Ave & Carroll Ln,Edmonton,CAN
+32016.0,Fallsgrove Dr & W Montgomery Ave,Edmonton,CAN
+31621.0,4th & D St NW / Judiciary Square,Edmonton,CAN
+31674.0,Maine Ave & Water St SW,Edmonton,CAN
+31120.0,10th St & Florida Ave NW,Edmonton,CAN
+31027.0,Wilson Blvd & N Quinn St,Edmonton,CAN
+31025.0,Central Library / Quincy St & 10th St N,Edmonton,CAN
+31326.0,Hardy Rec Center,Greenville,US
+31617.0,Bladensburg Rd & Benning Rd NE,Greenville,US
+32419.0,Capitol Heights Metro,Greenville,US
+32022.0,Dennis Ave & Amherst Ave,Greenville,US
+31707.0,Benning Rd & East Capitol St NE / Benning Rd Metro,Greenville,US
+31630.0,15th & East Capitol St NE,Clanton,US
+32421.0,Riverdale Park Town Center,Clanton,US
+32050.0,Spring St & 2nd Ave,Clanton,US
+31514.0,Hamlin & 7th St NE,Clanton,US
+32420.0,Prince George's Plaza Metro,Clanton,US
+31826.0,Minnesota Ave & R St SE,Dothan,US
+31258.0,Lincoln Memorial,Dothan,US
+32230.0,McLean Metro,Dothan,US
+31408.0,Takoma Metro,Dothan,US
+31959.0,Main Line Blvd & E Glebe,Dothan,US
+32021.0,47th & Elm St,Greenville,US
+31605.0,3rd & D St SE,Greenville,US
+31820.0,Anacostia Park,Greenville,US
+32085.0,The Shoppes @ Burnt Mills,Greenville,US
+32423.0,National Harbor Carousel,Greenville,US
+31640.0,Maryland Ave & E St NE,Victoria,CAN
+32414.0,Riggs Rd & East West Hwy,Victoria,CAN
+32412.0,New Hampshire Ave & East-West Hwy,Victoria,CAN
+31415.0,Georgia Ave & Kennedy St NW,Victoria,CAN
+31009.0,Crystal Dr & 27th St S,Victoria,CAN
+31065.0,N Pershing Dr & N Wayne St,Clanton,US
+32045.0,Shady Grove Metro West,Clanton,US
+31654.0,King Greenleaf Rec Center,Clanton,US
+31016.0,Clarendon Blvd & Pierce St,Clanton,US
+31034.0,Fairfax Dr & N Randolph St,Clanton,US
+31962.0,King St & W Braddock Rd,Edmonton,CAN
+31629.0,8th & East Capitol St NE,Edmonton,CAN
+31302.0,Wisconsin Ave & Newark St NW,Edmonton,CAN
+31271.0,Constitution Ave & 2nd St NW/DOL,Edmonton,CAN
+31929.0,Mt Vernon Trail & S. Washington St.,Edmonton,CAN
+31628.0,1st & I St SE,Clanton,US
+31319.0,Wisconsin Ave & Brandywine St NW,Clanton,US
+31137.0,Park Pl & Rock Creek Church Rd NW,Clanton,US
+31953.0,S Pickett St & Shillings St,Clanton,US
+32243.0,Reston Town Center Metro North,Clanton,US
+31322.0,48th Pl & MacArthur Blvd NW,Edmonton,CAN
+31529.0,Edgewood Rec Center,Edmonton,CAN
+31331.0,Arizona Ave & MacArthur Blvd NW,Edmonton,CAN
+31021.0,Clarendon Blvd & N Fillmore St,Edmonton,CAN
+31512.0,Neal St & Trinidad Ave NE,Edmonton,CAN
+31413.0,3rd & Underwood St NW,Banff,CAN
+31812.0,16th & Q St SE / Anacostia HS,Banff,CAN
+32406.0,Fleet St & Waterfront St,Banff,CAN
+31632.0,15th & F St NE,Banff,CAN
+32046.0,River Rd & Landy Ln,Banff,CAN
+31538.0,South Dakota Ave & Bladensburg Rd NE,Birmingham,US
+31035.0,N Quincy St & Glebe Rd,Birmingham,US
+31227.0,13th St & New York Ave NW,Birmingham,US
+32038.0,King Farm Blvd & Piccard Dr,Birmingham,US
+32033.0,Piccard & W Gude Dr,Birmingham,US
+31214.0,17th & Corcoran St NW,Calgary,CAN
+31113.0,Columbia Rd & Belmont St NW,Calgary,CAN
+31229.0,New Hampshire Ave & T St NW,Calgary,CAN
+31275.0,New Hampshire Ave & 24th St NW,Calgary,CAN
+32048.0,Bethesda Metro / Wisconsin Ave & Old Georgetown Rd,Calgary,CAN
+31206.0,19th & E Street NW,Banff,CAN
+31806.0,Congress Heights Metro,Banff,CAN
+31074.0,TJ Cmty Ctr / 2nd St & S Old Glebe Rd,Banff,CAN
+31676.0,1st & Q St SW,Banff,CAN
+31054.0,Wakefield High School,Banff,CAN
+31652.0,4th & M St SE,Birmingham,US
+31098.0,King St Metro North / Cameron St,Birmingham,US
+31060.0,S Arlington Mill Dr & Campbell Ave,Birmingham,US
+31828.0,New Jersey Ave & H St SE,Birmingham,US
+32214.0,Reston Town Center Transit Station,Birmingham,US
+31916.0,Potomac Ave & Swann Ave,Greenville,US
+31102.0,11th & Kenyon St NW,Greenville,US
+31138.0,4th & College St NW,Greenville,US
+31515.0,Fort Totten Metro,Greenville,US
+31118.0,3rd & Elm St NW,Greenville,US
+31308.0,39th & Veazey St NW,Greenville,US
+31900.0,Langston Blvd & N Woodstock St,Greenville,US
+31017.0,Wilson Blvd & N Uhle St,Greenville,US
+31711.0,Deanwood Rec Center,Greenville,US
+31649.0,14th & Newton St NW,Greenville,US
+31815.0,19th & Savannah St SE,Calexico,US
+31312.0,Wisconsin Ave & O St NW,Calexico,US
+31418.0,New Hampshire & Gallatin St NW,Calexico,US
+31099.0,Madison St & N Henry St,Calexico,US
+31972.0,S Wakefield St & 28th St S,Calexico,US
+31421.0,Grant Circle,Greenville,US
+32061.0,New Hampshire & Kirklynn Ave,Greenville,US
+31286.0,11th & O St NW,Greenville,US
+31202.0,14th & R St NW,Greenville,US
+31641.0,2nd St & Massachusetts Ave NE,Greenville,US
+31634.0,3rd & Tingey St SE,Birmingham,US
+32005.0,Traville Gateway Dr & Gudelsky Dr,Birmingham,US
+32604.0,E Fairfax St & S Washington St,Birmingham,US
+31085.0,Mount Vernon Ave & E Nelson Ave,Birmingham,US
+31069.0,N Pershing Dr & N George Mason Dr,Birmingham,US
+31037.0,Ballston Metro / Stuart St & 9th St N,Victoria,CAN
+31510.0,18th St & Rhode Island Ave NE,Victoria,CAN
+32222.0,Towers Crescent Dr & Tysons One Pl,Victoria,CAN
+32249.0,Green Range Dr and Glade Dr,Victoria,CAN
+32607.0,S Maple Ave & S Washington St,Victoria,CAN
+31246.0,M St & Pennsylvania Ave NW,Richmond,CAN
+31050.0,Barton St & 10th St N,Richmond,CAN
+32210.0,Town Center Pkwy & Bowman Towne Dr,Richmond,CAN
+32220.0,Sunset Hills Rd & Isaac Newton Square,Richmond,CAN
+32002.0,Bethesda Ave & Arlington Rd,Richmond,CAN
+31412.0,3rd St & Riggs Rd NE,Calgary,CAN
+32402.0,Baltimore Ave & Van Buren St / Riverdale Park Station,Calgary,CAN
+31930.0,Eisenhower Ave & Ike Dr,Calgary,CAN
+31216.0,14th St & New York Ave NW,Calgary,CAN
+31230.0,Metro Center / 12th & G St NW,Calgary,CAN
+31101.0,14th & V St NW,Victoria,CAN
+31700.0,Good Hope & Naylor Rd SE,Victoria,CAN
+31024.0,Virginia Square Metro / Monroe St & 9th St N,Victoria,CAN
+32029.0,Offutt Ln & Chevy Chase Dr,Victoria,CAN
+31036.0,George Mason Dr & Wilson Blvd,Victoria,CAN
+31902.0,Wilson Blvd & N Illinois St ,Birmingham,US
+31078.0,Arlington Blvd & S George Mason Dr,Birmingham,US
+31501.0,12th & Newton St NE,Birmingham,US
+31055.0,28th St & S Meade St,Birmingham,US
+31719.0,Oklahoma Ave & Benning Rd NE,Birmingham,US
+32407.0,Oxon Hill Park & Ride,Edmonton,CAN
+31913.0,Commonwealth Ave & E Monroe Ave,Edmonton,CAN
+31106.0,Calvert & Biltmore St NW,Edmonton,CAN
+31928.0,N. Beauregard St. & Berkley St.,Edmonton,CAN
+31967.0,S Reynolds St & Edsall Rd,Edmonton,CAN
+32231.0,Dunn Loring Metro,Clanton,US
+32028.0,Norfolk & Rugby Ave,Clanton,US
+32074.0,Twinbrook Metro,Clanton,US
+31948.0,W&OD Trail & Langston Blvd,Clanton,US
+32027.0,Battery Ln & Trolley Trail,Clanton,US
+32032.0,Fleet St & Ritchie Pkwy,Clanton,US
+31274.0,10th & G St NW,Clanton,US
+31056.0,S Troy St & 26th St S,Clanton,US
+32004.0,Fallsgrove Blvd & Fallsgrove Dr,Clanton,US
+32079.0,Executive Blvd & E Jefferson St,Clanton,US
+31096.0,Walter Reed Dr & 8th St S,Greenville,US
+32078.0,Woodglen Dr & Executive Blvd,Greenville,US
+32250.0,South Gate Community Center,Greenville,US
+32217.0,Sunset Hills Rd & Discovery Square,Greenville,US
+31032.0,Washington Blvd & 7th St N,Greenville,US
+32039.0,Old Georgetown Rd & Southwick St,Victoria,CAN
+31416.0,14th St & Luzon Ave NW,Victoria,CAN
+31701.0,Branch & Pennsylvania Ave SE,Victoria,CAN
+31030.0,Langston Blvd & N Adams St,Victoria,CAN
+31504.0,10th & Monroe St NE,Victoria,CAN
+31818.0,Livingston Rd & 3rd St SE,Richmond,CAN
+32026.0,Carroll & Ethan Allen Ave,Richmond,CAN
+31801.0,Anacostia Metro,Richmond,CAN
+31303.0,Tenleytown / Wisconsin Ave & Albemarle St NW,Richmond,CAN
+31963.0,Holmes Run Pkwy & N Pickett St,Richmond,CAN
+31954.0,S Jordan St & Venable St,Dothan,US
+32086.0,Briggs Chaney & Castle Dr,Dothan,US
+31243.0,4th & C St SW,Dothan,US
+31019.0,Wilson Blvd & N Edgewood St,Dothan,US
+31523.0,Lincoln Rd & Seaton Pl NE/Harry Thomas Rec Center,Dothan,US
+31941.0,N Hampton Dr & Ford Ave,Richmond,CAN
+31061.0,S Kenmore St & 24th St S,Richmond,CAN
+31407.0,14th St & Colorado Ave NW,Richmond,CAN
+31525.0,Trinidad Rec Center,Richmond,CAN
+31414.0,Georgia Ave & Piney Branch Rd NW,Richmond,CAN
+31231.0,14th & D St NW / Ronald Reagan Building,Banff,CAN
+31715.0,37th & Ely Pl SE,Banff,CAN
+32056.0,East West Hwy & 16th St,Banff,CAN
+31909.0,Mount Vernon Ave & Four Mile Run Park,Banff,CAN
+32422.0,The Mall at Prince Georges,Banff,CAN
+31601.0,19th & East Capitol St SE,Dothan,US
+31217.0,USDA / 12th & C St SW,Dothan,US
+32049.0,WAU / Flower Ave & Division St,Dothan,US
+32024.0,Fenton St & Gist Ave,Dothan,US
+31624.0,North Capitol St & F St NW,Dothan,US
+32014.0,Friendship Hts Metro / Wisconsin Ave & Wisconsin Cir,Edmonton,CAN
+31046.0,Henry St & Pendleton St,Edmonton,CAN
+31003.0,Crystal Dr & 15th St S,Edmonton,CAN
+31318.0,Connecticut Ave & Yuma St NW,Edmonton,CAN
+32013.0,Montgomery & East Ln,Edmonton,CAN
+31309.0,Fessenden St & Wisconsin Ave NW,Victoria,CAN
+32088.0,Briggs Chaney Park & Ride,Victoria,CAN
+32000.0,Norfolk Ave & Fairmont St,Victoria,CAN
+32241.0,Reston Pkwy & Bennington Woods Rd,Victoria,CAN
+31031.0,15th St & N Scott St,Victoria,CAN
+32075.0,North Bethesda Metro,Richmond,CAN
+31402.0,14th St Heights / 14th & Crittenden St NW,Richmond,CAN
+31702.0,Randle Circle & Minnesota Ave SE,Richmond,CAN
+31307.0,3000 Connecticut Ave NW / National Zoo,Richmond,CAN
+32404.0,Perry & 35th St,Richmond,CAN
+31915.0,Powhatan St & Bashford Ln,Greenville,US
+31704.0,Nannie Helen Burroughs & Minnesota Ave NE,Greenville,US
+31026.0,Washington Blvd & 10th St N,Greenville,US
+31301.0,Ward Circle / American University,Greenville,US
+32003.0,Montgomery Ave & Waverly St ,Greenville,US
+31964.0,Virginia Theological Seminary,Calexico,US
+31528.0,John McCormack Rd NE,Calexico,US
+32035.0,Georgia Ave & Spring St,Calexico,US
+31947.0,Rosslyn Metro / Wilson Blvd & N Moore St,Calexico,US
+31207.0,Georgia Ave & Fairmont St NW,Calexico,US
+31660.0,8th & K St NE,Birmingham,US
+32043.0,Veterans Pl & Pershing Dr ,Birmingham,US
+31075.0,Rolfe St & 9th St S,Birmingham,US
+32034.0,Silver Spring Transit Center - Top Level,Birmingham,US
+31817.0,1st & S Capitol St SE / Oxon Run Trail,Birmingham,US
+31090.0,Long Bridge Park / Long Bridge Dr & 6th St S,Banff,CAN
+32082.0,Garland Ave & Walden Rd,Banff,CAN
+32064.0,Amherst Ave & Prichard Rd,Banff,CAN
+31539.0,South Dakota Ave & 33rd St NE,Banff,CAN
+32236.0,Vy Reston Heights,Banff,CAN
+32416.0,Chillum Rd & Riggs Rd / Riggs Plaza,Calexico,US
+32409.0,Southern Ave Metro,Calexico,US
+31971.0,Penrose Sq/Columbia Pike & S Barton St,Calexico,US
+31084.0,Ballenger Ave & Dulaney St,Calexico,US
+32204.0,Tysons Corner Station,Calexico,US
+31938.0,23rd St S & Hayes St,Greenville,US
+31811.0,South Capitol & Atlantic St SW,Greenville,US
+31804.0,Anacostia Library,Greenville,US
+32253.0,Soapstone Dr Convenience Center,Greenville,US
+32208.0,Tysons West Transit Center,Greenville,US
+31044.0,King St & Patrick St,Calgary,CAN
+31912.0,Mount Vernon Ave & Bruce St,Calgary,CAN
+32240.0,Ring Rd & North Shore Dr,Calgary,CAN
+31937.0,Arlington Blvd & Ft Myer Dr,Calgary,CAN
+32037.0,King Farm Blvd & Pleasant Dr,Calgary,CAN
+31720.0,Anacostia Roller Skating Pavilion,Dothan,US
+31511.0,12th & Irving St NE,Dothan,US
+31028.0,N Veitch St & Key Blvd,Dothan,US
+31233.0,17th & K St NW / Farragut Square,Dothan,US
+31813.0,Alabama Ave & Stanton Rd SE / Shops at Park Village,Dothan,US
+31277.0,17th & G St NW,Dothan,US
+32065.0,Grandview & Blueridge Ave,Dothan,US
+31083.0,Potomac Greens Dr & Slaters Ln,Dothan,US
+31825.0,Fort Stanton Rec Center,Dothan,US
+32405.0,Largo Rd & Campus Way / Prince Georges's Comm Col,Dothan,US
+31317.0,Wisconsin Ave & Ingomar St NW,Greenville,US
+32200.0,Spring Hill Metro,Greenville,US
+32424.0,Roosevelt Center & Crescent Rd,Greenville,US
+31521.0,18th & Monroe St NE,Greenville,US
+32417.0,Hyattsville Library / Adelphi Rd & Toledo Rd,Greenville,US
+32410.0,Queens Chapel & Hamilton St,Banff,CAN
+31072.0,31st St & S Woodrow St,Banff,CAN
+32047.0,Rockville Metro West,Banff,CAN
+31403.0,5th & Kennedy St NW,Banff,CAN
+31803.0,Good Hope Rd & 14th St SE,Banff,CAN
+31537.0,Fort Lincoln Dr & 33rd Pl NE,Dothan,US
+31822.0,Stanton Square SE,Dothan,US
+31204.0,20th & E St NW,Dothan,US
+31422.0,Broad Branch Rd & Northampton St NW,Dothan,US
+32205.0,Westpark & Jones Branch Dr,Dothan,US
+32227.0,Greensboro & Pinnacle Dr,Banff,CAN
+32040.0,Friendship Blvd & Willard Ave,Banff,CAN
+31918.0,Madison St & Fairfax St,Banff,CAN
+31411.0,Georgia & Missouri Ave NW,Banff,CAN
+32401.0,Largo Town Center Metro,Banff,CAN
+32044.0,Rockville Metro East,Edmonton,CAN
+32223.0,North Shore Dr & Village Rd,Edmonton,CAN
+31706.0,Fairfax Village,Edmonton,CAN
+31038.0,Glebe Rd & 11th St N,Edmonton,CAN
+31944.0,S Clark St & 33rd St,Edmonton,CAN
+32239.0,Becontree Ln & Goldenrain Ct,Edmonton,CAN
+32258.0,Reston Town Center Metro South,Edmonton,CAN
+31721.0,Anacostia Ave & East Capitol St NE,Edmonton,CAN
+32066.0,Windham Ln & Amherst Ave,Edmonton,CAN
+31724.0,41st St & Alabama Ave SE / Fort Davis Rec,Edmonton,CAN
+31526.0,Rhode Island & Montana Ave NE,Clanton,US
+32234.0,Merrilee Dr & Lauren Elizabeth Lane,Clanton,US
+31952.0,N Howard St & N Imboden St,Clanton,US
+32216.0,Library St & Freedom Dr,Clanton,US
+31079.0,Langston Blvd & N Cleveland St,Clanton,US
+31966.0,Duke St & Jordan St,Clanton,US
+32057.0,Pooks Hill Rd & Linden Ave,Clanton,US
+32077.0,Rockville Pike & Old Georgetown Rd,Clanton,US
+31713.0,Division Ave & Foote St NE,Clanton,US
+32090.0,Stewart & April,Clanton,US
+31705.0,Benning Branch Library,Calgary,CAN
+31921.0,Westover Library / Washington Blvd & N McKinley Rd,Calgary,CAN
+32211.0,Reston Regional Library,Calgary,CAN
+32601.0,Eden Center,Calgary,CAN
+32248.0,Olde Crafts Dr and Cartwright Pl,Calgary,CAN
+32425.0,Crescent Rd & Ridge Rd,Clanton,US
+31261.0,Virginia Ave & C St NW,Clanton,US
+31063.0,S George Mason Dr & S Four Mile Run Dr,Clanton,US
+31033.0,Barcroft Community Center,Clanton,US
+31057.0,S Four Mile Run Dr & Shirlington Rd,Clanton,US
+32228.0,Campus Commons,Richmond,CAN
+32403.0,Baltimore Ave & Jefferson St,Richmond,CAN
+32411.0,Northwestern High School,Richmond,CAN
+31829.0,16th & Bangor St SE,Richmond,CAN
+32232.0,West Falls Church Metro,Richmond,CAN
+32606.0,N Roosevelt St & Roosevelt Blvd,Edmonton,CAN
+32080.0,Fishers Ln & Rock Creek Mill Rd,Edmonton,CAN
+31977.0,Marymount University / Yorktown Blvd & 26th St N,Edmonton,CAN
+32063.0,Amherst Ave & Elkins St,Edmonton,CAN
+31722.0,Woody Ward Rec Center,Edmonton,CAN
+32007.0,E Montgomery Ave & Maryland Ave,Birmingham,US
+31671.0,53rd & D St SE/C.W. Harris Elementary,Birmingham,US
+31961.0,Fillmore & Bisdorf,Birmingham,US
+32068.0,Columbus Ave & Tribeca St,Birmingham,US
+31423.0,Kansas Ave & Longfellow St NW,Birmingham,US
+31901.0,Washington Blvd & N Frederick St,Clanton,US
+32051.0,Connecticut Ave & Chevy Chase Lake Dr,Clanton,US
+31502.0,John McCormack Dr & Michigan Ave NE,Clanton,US
+31717.0,Kenilworth Terr & Hayes St. NE,Clanton,US
+31908.0,Radford St & Osage St,Clanton,US
+32087.0,White Oak Rec Center,Greenville,US
+31951.0,8th Rd & S Frederick St,Greenville,US
+32041.0,Medical Center Dr & Key West Ave,Greenville,US
+32221.0,Greensboro & International Dr,Greenville,US
+31823.0,United Medical Center,Greenville,US
+32426.0,Greenbelt Station Parkway,Banff,CAN
+31956.0,Reed & Edison,Banff,CAN
+32206.0,Jones Branch & Westbranch Dr,Banff,CAN
+31927.0,Wheeler Ave & S. Floyd St.,Banff,CAN
+32247.0,South Lakes Dr and Reston Pkwy,Banff,CAN
+32252.0,Ridge Heights and Owl Cove Ln,Richmond,CAN
+32023.0,Montgomery College / W Campus Dr & Mannakee St,Richmond,CAN
+32256.0,North Village and Park Garden,Richmond,CAN
+32218.0,Temporary Rd & Old Reston Ave,Richmond,CAN
+32209.0,North Shore & Cameron Crescent Dr/Crescent Apartments,Richmond,CAN
+31424.0,9th & Ingraham St NW,Dothan,US
+31329.0,White House,Dothan,US
+32207.0,Westpark & Park Run Dr,Dothan,US
+32054.0,Lyttonsville Rd & Lyttonsville Pl,Dothan,US
+31076.0,S Randolph St & Campbell Ave,Dothan,US
+31716.0,Kingman Island/The Fields at RFK,Calexico,US
+31824.0,Valley Ave & Wheeler Rd SE,Calexico,US
+32224.0,Town Center Pkwy & Sunset Hills Rd,Calexico,US
+32408.0,Oglethorpe St & 42nd Ave,Calexico,US
+32094.0,Oak Leaf & Lockwood,Calexico,US
+32901.0,6035 Warehouse,Richmond,CAN
+32413.0,Rhode Island Ave & 39th St / Brentwood Arts Exchange,Richmond,CAN
+31334.0,Loughboro Rd & Dalecarlia Pkwy NW / Sibley Hospital,Richmond,CAN
+32244.0,Vantage Hill Rd & Wainwright Dr,Richmond,CAN
+32237.0,Baron Cameron Ave & North Hampton Ave,Richmond,CAN
+32076.0,Citadel Ave & McGrath Blvd,Edmonton,CAN
+31816.0,4th St & Mississippi Ave SE,Edmonton,CAN
+31819.0,Joliet St & MLK Ave SW/Bald Eagle Rec Ctr,Edmonton,CAN
+32093.0,White Oak Transit Center,Edmonton,CAN
+31723.0,Ridge Rd & Southern Ave SE,Edmonton,CAN
+31714.0,61st St & Banks Pl NE,Dothan,US
+32017.0,Monroe St & Monroe Pl,Dothan,US
+32009.0,Frederick Ave & Horners Ln,Dothan,US
+32052.0,Key West Ave & Siesta Key Way,Dothan,US
+32251.0,Lake Newport Rd and Autumn Ridge Cir,Dothan,US
+32212.0,New Dominion Pkwy & Fountain Dr,Dothan,US
+32072.0,Key West Ave & Diamondback Dr,Dothan,US
+32070.0,Key West Ave & Great Seneca Hwy,Dothan,US
+32018.0,Needwood Rd & Eagles Head Ct,Dothan,US
+32259.0,N Shore Dr & Wainwright Dr,Dothan,US
+32242.0,Inlet Ct & Wiehle Dr,Banff,CAN
+32213.0,Sunset Hills & Old Reston Ave,Banff,CAN
+32245.0,Links Dr & Wedge Dr,Banff,CAN
+32201.0,Westpark Dr & Leesburg Pike,Banff,CAN
+31710.0,Nannie Helen Burroughs Ave & 49th St NE,Banff,CAN
+31932.0,Van Dorn Metro,Banff,CAN
+31718.0,Ridge Rd Community Center,Banff,CAN
+32069.0,Columbus Ave & Gramercy Blvd,Banff,CAN
+32091.0,Stewart Ln & Old Columbia Pike,Banff,CAN
+32067.0,Shady Grove Metro East,Banff,CAN
+32225.0,Reston Pkwy & Spectrum Dr,Birmingham,US
+32233.0,Jones Branch Drive & Scotts Crossing Rd,Birmingham,US
+31957.0,King St & Kenwood Ave,Birmingham,US
+31670.0,12th St & New York Ave NW,Birmingham,US
+30200.0,9th St & Pennsylvania Ave NW,Birmingham,US
+31678.0,4th & O St SW,Edmonton,CAN
+32071.0,Corporate Blvd & Omega Dr,Edmonton,CAN
+30201.0,9th & G St NW,Edmonton,CAN
+31830.0,South Capitol St and Southern Ave SE,Edmonton,CAN
+31210.0,17th St & Rhode Island Ave NW,Edmonton,CAN
+31542.0,12th & Varnum St NE,Clanton,US
+31425.0,Georgia Ave & Dahlia St NW,Clanton,US
+33200.0,17th St & New York Ave NW,Clanton,US
+32260.0,Vienna Metro South,Clanton,US
+32262.0,District Ave & Strawberry Ln/Mosaic Market Garage,Clanton,US
+31978.0,Arlington National Cemetery,Banff,CAN
+31311.0,13th & O St NW/ Logan Circle,Banff,CAN
+31390.0,Whitehaven Pkwy & Foxhall Rd NW / GWU Mt. Vernon,Banff,CAN
+31426.0,10th St & Spring Rd NW,Banff,CAN
+32261.0,Vaden Dr & Royal Victoria Dr/Providence Community Center,Banff,CAN
+32263.0,Gatehouse Rd & Telestar Ct,Clanton,US
+32265.0,Pimmit Dr & Los Pueblos Ln,Clanton,US
+32269.0,Jones Branch Dr & Blyton St,Clanton,US
+32264.0,Pimmit Dr & Idyl Ln,Clanton,US
+32266.0,Emma Lee St & Morris St,Clanton,US
+31543.0,24th St & Rhode Island Ave NE,Calexico,US
+32268.0,Arlington Blvd & Allen St,Calexico,US
+32267.0,Route 29 & Bisvey Dr,Calexico,US
+32270.0,Westbranch Dr & Jones Branch Dr,Calexico,US
+32271.0,Madron Ln & Bermudez Ct,Calexico,US
+32272.0,Madrillon Rd & Boss St,Birmingham,US
+32042.0,Shady Grove Hospital,Birmingham,US
+32900.0,Motivate BX Tech office,Birmingham,US
