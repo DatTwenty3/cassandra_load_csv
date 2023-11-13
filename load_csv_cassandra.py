@@ -51,9 +51,10 @@ if file_list:
                 end_lat = float(row['end_lat']) if row['end_lat'] else None
                 end_lng = float(row['end_lng']) if row['end_lng'] else None
                 member_casual = row['member_casual']
+                bike_number = row['bike_number']
 
-                cf_query = f"INSERT INTO capitalbikeshare (ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
-                batch.add(cf_query, (ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual))
+                cf_query = f"INSERT INTO capitalbikeshare (ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual,bike_number) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,%s)"
+                batch.add(cf_query, (ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual,bike_number))
                 data_element_counter = data_element_counter + 1
                 total_data_element_counter_in_file = total_data_element_counter_in_file + 1
                 total_data_element_counter = total_data_element_counter + 1

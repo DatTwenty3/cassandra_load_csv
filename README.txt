@@ -22,11 +22,13 @@ CREATE TABLE capitalbikeshare (
     start_station_id text,
     end_station_name text,
     end_station_id text,
-    start_lat float,
-    start_lng float,
-    end_lat float,
-    end_lng float,
-    member_casual text
+    start_lat text,
+    start_lng text,
+    end_lat text,
+    end_lng text,
+    member_casual text,
+    bike_number text
+
 ); ---FOR BIKE SHARE BIG-DATA
 
 /*[STEP 4]*/

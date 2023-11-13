@@ -26,7 +26,8 @@ CREATE TABLE capitalbikeshare (
     start_lng float,
     end_lat float,
     end_lng float,
-    member_casual text
+    member_casual text,
+    bike_number text,
 ); ---FOR BIKE SHARE BIG-DATA
 
 CREATE TABLE stationbikeshare (
