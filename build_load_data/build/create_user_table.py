@@ -30,7 +30,7 @@ print(random_dates)
 
 
 
-directory_path = os.path.join(os.path.dirname(__file__), "combined_csv_new.csv")
+directory_path = os.path.join(os.path.dirname(__file__), "./../../data_csv/combined_csv_new.csv")
 table = pd.read_csv(directory_path, engine="pyarrow")
 # Generate random user IDs
 user_ids = ['U00' + str(np.random.randint(1, 9999)).zfill(4) for _ in range(table.shape[0])]
@@ -71,5 +71,5 @@ user_table["user_id"] = table['user_id'].drop_duplicates()
 user_table["user_name"] = np.random.choice(english_names+asian_names, size=len(user_table))
 user_table["country"] = np.random.choice(["US", "CAN"], size=len(user_table))
 user_table["sign_up_date"] = np.random.choice(random_dates, size=len(user_table))
-print(user_table)
+user_table['user_password'] = user_table['user_name'].apply(lambda x: x[2:] + "@123")
 user_table.to_csv("build_load_data/result_user/user_table_2023.csv", index=False)
