@@ -50,7 +50,8 @@ CREATE TABLE userbikeshare (
     user_id text PRIMARY KEY,
     user_name text,
     country text,
-    sign_up_date timestamp
+    sign_up_date timestamp,
+	user_password text
 ); /*Table for userbikeshare table*/
 
  -------------------------IN LOCAL YOUR COMPUTER-------------------------

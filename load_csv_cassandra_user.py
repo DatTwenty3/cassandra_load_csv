@@ -43,9 +43,10 @@ if file_list:
                 user_name = row['user_name']
                 country = row['country']
                 sign_up_date = row['sign_up_date']
+                user_password = row['user_password']
 
-                cf_query = f"INSERT INTO userbikeshare (user_id, user_name, country, sign_up_date) VALUES (%s, %s, %s, %s)"
-                batch.add(cf_query, (user_id, user_name, country, sign_up_date))
+                cf_query = f"INSERT INTO userbikeshare (user_id, user_name, country, sign_up_date, user_password) VALUES (%s, %s, %s, %s, %s)"
+                batch.add(cf_query, (user_id, user_name, country, sign_up_date, user_password))
                 data_element_counter = data_element_counter + 1
                 total_data_element_counter_in_file = total_data_element_counter_in_file + 1
                 total_data_element_counter = total_data_element_counter + 1
