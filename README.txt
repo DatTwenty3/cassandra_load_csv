@@ -39,18 +39,18 @@ CREATE TABLE stationbikeshare (
     country text
 ); /*Table for stationbikeshare table*/
 
-CREATE TABLE bikebikeshare (
+CREATE TABLE bikeshare (
     bike_number text PRIMARY KEY,
     rideable_type text,
-    city text,
+    country text,
     introduced_date timestamp
 ); /*Table for bikebikeshare table*/
 
 CREATE TABLE userbikeshare (
-    bike_number text PRIMARY KEY,
-    rideable_type text,
-    city text,
-    introduced_date timestamp
+    user_id text PRIMARY KEY,
+    user_name text,
+    country text,
+    sign_up_date timestamp
 ); /*Table for userbikeshare table*/
 
  -------------------------IN LOCAL YOUR COMPUTER-------------------------

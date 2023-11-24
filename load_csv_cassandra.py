@@ -9,6 +9,7 @@ import csv
 from cassandra import ConsistencyLevel
 from cassandra.cluster import Cluster
 from cassandra.query import BatchStatement
+import time
 
 data_element_counter = 0
 total_data_element_counter_in_file = 0
@@ -37,6 +38,7 @@ if file_list:
             print ('CSV file:', file, 'adding...')
             reader = csv.DictReader(csvfile)
             max_batch_size = 100
+            start_time = time.time()
             for row in reader:
                 ride_id = row['ride_id']
                 rideable_type = row['rideable_type']
@@ -54,21 +56,36 @@ if file_list:
                 bike_number = row['bike_number']
                 user_id = row['user_id']
 
+                start_time_insert_1_row = time.time()
                 cf_query = f"INSERT INTO capitalbikeshare (ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual, bike_number, user_id) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)"
+                end_time_insert_1_row = time.time()
+                time_insert_1_row = end_time_insert_1_row - start_time_insert_1_row
                 batch.add(cf_query, (ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual, bike_number, user_id))
                 data_element_counter = data_element_counter + 1
                 total_data_element_counter_in_file = total_data_element_counter_in_file + 1
                 total_data_element_counter = total_data_element_counter + 1
                 if data_element_counter >= max_batch_size:
+                    start_time_insert_1_batch = time.time()
                     session.execute(batch)
+                    end_time_insert_1_batch = time.time()
                     batch = BatchStatement(consistency_level=ConsistencyLevel.QUORUM)
+                    time_insert_1_batch = end_time_insert_1_batch - start_time_insert_1_batch
                     data_element_counter = 0
                     print('1 batch added with batch size', max_batch_size, 'and', total_data_element_counter_in_file, 'data element added from file', file)
+                    print('Time for insert 1 row is:', time_insert_1_row, 'seconds and for 1 batch is:', time_insert_1_batch, 'seconds')
             if data_element_counter:
+                start_time_insert_1_batch = time.time()
                 session.execute(batch)
+                end_time_insert_1_batch = time.time()
                 batch = BatchStatement(consistency_level=ConsistencyLevel.QUORUM)
+                time_insert_1_batch = end_time_insert_1_batch - start_time_insert_1_batch
                 data_element_counter = 0
                 print('1 batch added with batch size', max_batch_size, 'and', total_data_element_counter_in_file, 'data element added from file', file)
+                print('Time for insert 1 row is:', time_insert_1_row, 'seconds and for 1 batch is:', time_insert_1_batch, 'seconds')
         total_data_element_counter_in_file = 0
-        print('Congratulations! Total ', total_data_element_counter, ' data elements total was loaded')
+        end_time = time.time()
+        time_load_csv = end_time - start_time
+        time_load_csv_min = int(time_load_csv//60)
+        time_load_csv_sec = time_load_csv % 60
+        print('Congratulations! Total ', total_data_element_counter, ' data elements total was loaded in', time_load_csv_min, 'min', time_load_csv_sec, 'sec')
 cluster.shutdown()
